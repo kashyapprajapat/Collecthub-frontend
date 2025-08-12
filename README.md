@@ -3,6 +3,8 @@
 <div align="center">
   <h2>Your personal collections. All in one place.</h2>
   <p><em>A unified platform to organize and store your personal collections</em></p>
+  
+  ![Development Status](https://img.shields.io/badge/Status-Under%20Development-orange?style=for-the-badge)
 </div>
 
 
