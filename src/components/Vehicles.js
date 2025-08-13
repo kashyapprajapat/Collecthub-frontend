@@ -233,8 +233,8 @@ export default function Vehicles() {
 
       {/* Delete Confirmation Dialog */}
       {showDeleteDialog && (
-        <div className="fixed inset-0 bg-black bg-opacity-30 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 shadow-xl transform transition-all scale-100 animate-in zoom-in-95 duration-200">
+        <div className="fixed inset-0 bg-white bg-opacity-20 backdrop-blur-sm flex items-center justify-center z-50">
+          <div className="bg-white rounded-lg p-6 shadow-xl transform transition-all scale-100 animate-in zoom-in-95 duration-200 border">
             <div className="flex items-center space-x-3 mb-4">
               <AlertTriangle className="w-6 h-6 text-red-500" />
               <h3 className="text-lg font-semibold text-gray-900">Confirm Delete</h3>

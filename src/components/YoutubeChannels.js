@@ -1,15 +1,32 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import {
-  Plus,
-  Youtube,
-  Calendar,
-  Trash2,
-  Edit3,
-  AlertTriangle,
-} from 'lucide-react';
+import { Plus, Youtube, Calendar, Trash2, Edit3, AlertTriangle } from 'lucide-react';
+
+const Button = ({ children, onClick, className = '', variant = 'default', size = 'default', disabled = false }) => {
+  const baseClasses = 'inline-flex items-center justify-center rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50';
+  
+  const variants = {
+    default: 'bg-primary text-primary-foreground hover:bg-primary/90',
+    outline: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
+    ghost: 'hover:bg-accent hover:text-accent-foreground'
+  };
+  
+  const sizes = {
+    default: 'h-10 px-4 py-2',
+    sm: 'h-9 rounded-md px-3'
+  };
+  
+  return (
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className={`${baseClasses} ${variants[variant]} ${sizes[size]} ${className}`}
+    >
+      {children}
+    </button>
+  );
+};
 
 export default function YoutubeChannels() {
   const [channels, setChannels] = useState([]);
@@ -250,8 +267,8 @@ export default function YoutubeChannels() {
 
       {/* Delete Confirmation Dialog */}
       {showDeleteDialog && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-30">
-          <div className="transform rounded-lg bg-white p-6 shadow-xl transition-all duration-200 animate-in zoom-in-95">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-20 backdrop-blur-sm">
+          <div className="transform rounded-lg bg-white p-6 shadow-xl border transition-all duration-200 animate-in zoom-in-95">
             <div className="mb-4 flex items-center space-x-3">
               <AlertTriangle className="h-6 w-6 text-red-500" />
               <h3 className="text-lg font-semibold text-gray-900">
@@ -273,7 +290,7 @@ export default function YoutubeChannels() {
               </Button>
               <Button
                 onClick={() => deleteChannel(showDeleteDialog.id)}
-                className="bg-red-600 hover:bg-red-700"
+                className="bg-red-600 hover:bg-red-700 text-white"
                 disabled={apiLoading}
               >
                 {apiLoading ? 'Deleting...' : 'Delete'}
@@ -290,7 +307,7 @@ export default function YoutubeChannels() {
         </div>
         <Button
           onClick={() => setShowAddForm(!showAddForm)}
-          className="bg-red-600 transition-all duration-200 hover:scale-105 hover:bg-red-700"
+          className="bg-red-600 text-white transition-all duration-200 hover:scale-105 hover:bg-red-700"
         >
           <Plus className="mr-2 h-4 w-4" />
           Add Channel
@@ -298,7 +315,7 @@ export default function YoutubeChannels() {
       </div>
 
       {showAddForm && (
-        <div className="animate-in slide-in-from-top duration-300 rounded-lg border-l-4 border-red-600 bg-white p-6 shadow-lg">
+        <div className="rounded-lg border-l-4 border-red-600 bg-white p-6 shadow-lg">
           <h3 className="mb-4 text-lg font-semibold">
             {editingChannel ? 'Edit YouTube Channel' : 'Add New YouTube Channel'}
           </h3>
@@ -355,7 +372,7 @@ export default function YoutubeChannels() {
           <div className="mt-4 flex space-x-2">
             <Button
               onClick={editingChannel ? updateChannel : addChannel}
-              className="transition-all duration-200 bg-green-600 hover:bg-green-700"
+              className="transition-all duration-200 bg-green-600 hover:bg-green-700 text-white"
               disabled={apiLoading}
             >
               {apiLoading
