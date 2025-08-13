@@ -325,8 +325,8 @@ export default function Games() {
 
   // Delete Confirmation Dialog
   const DeleteDialog = () => (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-lg p-6 max-w-sm w-full mx-4 animate-in slide-in-from-top duration-300">
+    <div className="fixed inset-0 bg-black bg-opacity-20 flex items-center justify-center z-50 backdrop-blur-sm">
+      <div className="bg-white rounded-lg p-6 max-w-sm w-full mx-4 animate-in slide-in-from-top duration-300 shadow-xl">
         <div className="flex items-center space-x-3 mb-4">
           <AlertCircle className="w-6 h-6 text-red-600" />
           <h3 className="text-lg font-semibold text-gray-900">

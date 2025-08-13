@@ -216,8 +216,8 @@ export default function MusicCollection() {
 
       {/* Delete Confirmation Modal */}
       {deleteConfirm.show && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 animate-in fade-in duration-200">
-          <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4 animate-in zoom-in-95 duration-200">
+        <div className="fixed inset-0 bg-black bg-opacity-20 flex items-center justify-center z-50 animate-in fade-in duration-200 backdrop-blur-sm">
+          <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4 animate-in zoom-in-95 duration-200 shadow-xl">
             <div className="flex items-center space-x-3 mb-4">
               <AlertTriangle className="w-6 h-6 text-red-500" />
               <h3 className="text-lg font-semibold">Confirm Delete</h3>
