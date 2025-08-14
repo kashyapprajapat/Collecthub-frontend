@@ -4,7 +4,12 @@
   <h2>Your personal collections. All in one place.</h2>
   <p><em>A unified platform to organize and store your personal collections</em></p>
   
-  ![Development Status](https://img.shields.io/badge/Status-Under%20Development-orange?style=for-the-badge)
+![Deployment Status](https://img.shields.io/badge/Status-Deployment-green?style=for-the-badge)
+<a href="https://collecthub.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Live%20URL-https%3A%2F%2Fcollecthub.vercel.app-blue?style=for-the-badge" alt="Live URL">
+</a>
+![Platform](https://img.shields.io/badge/Platform-Web-green?style=for-the-badge)
+
 </div>
 
 
