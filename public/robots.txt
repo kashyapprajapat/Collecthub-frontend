@@ -1,0 +1,19 @@
+# robots.txt for CollectHub
+# Allow all web crawlers to access all content
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain)
+Sitemap: https://collecthub.vercel.app/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow admin or private areas if any
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow specific important pages
+Allow: /sign-in
+Allow: /sign-up

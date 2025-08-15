@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<url>
+  <loc>https://collecthub.vercel.app/</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2025-08-15</lastmod>
+</url>
+<url>
+  <loc>https://collecthub.vercel.app/sign-in</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2025-08-15</lastmod>
+</url>
+<url>
+  <loc>https://collecthub.vercel.app/sign-up</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2025-08-15</lastmod>
+</url>
+</urlset>
