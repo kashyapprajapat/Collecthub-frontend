@@ -12,16 +12,12 @@
 
 </div>
 
-
-
-
 ---
 
 ## 🚀 Overview
 
 CollectHub is a comprehensive platform designed to help you organize, manage, and showcase your personal collections in one centralized location. Whether you're collecting games, YouTube channels, programming languages, or any other items, CollectHub provides the tools you need to keep everything organized.
 
----
 ---
 
 ## 📸 Screenshots
@@ -46,6 +42,30 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
   
   <img src="DemoImages/GameMobileCRUDView.png" alt="Games Collection - Mobile" width="300"/>
   <p><em>Games Collection Management - Mobile View</em></p>
+</div>
+
+##### Games Collection CRUD Operations
+<div align="center">
+  <img src="DemoImages/gamescrud/GameWelcome.png" alt="Games Welcome" width="600"/>
+  <p><em>Games Collection Welcome Screen</em></p>
+  
+  <img src="DemoImages/gamescrud/GameAdd.png" alt="Add Game" width="600"/>
+  <p><em>Add New Game Form</em></p>
+  
+  <img src="DemoImages/gamescrud/GameAddSuccess.png" alt="Game Added Successfully" width="600"/>
+  <p><em>Game Added Successfully</em></p>
+  
+  <img src="DemoImages/gamescrud/GameUpdate.png" alt="Update Game" width="600"/>
+  <p><em>Update Game Information</em></p>
+  
+  <img src="DemoImages/gamescrud/GmaeUpdatescucess.png" alt="Game Updated Successfully" width="600"/>
+  <p><em>Game Updated Successfully</em></p>
+  
+  <img src="DemoImages/gamescrud/GameDelete.png" alt="Delete Game" width="600"/>
+  <p><em>Delete Game Confirmation</em></p>
+  
+  <img src="DemoImages/gamescrud/GameDeleetSucess..png" alt="Game Deleted Successfully" width="600"/>
+  <p><em>Game Deleted Successfully</em></p>
 </div>
 
 ---
