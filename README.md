@@ -79,6 +79,27 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
   <p><em>Music Collection Management - Mobile View</em></p>
 </div>
 
+##### Music Collection CRUD Operations
+<div align="center">
+  <img src="DemoImages/MusicCRUD/MusicWelcome.png" alt="Music Welcome" width="600"/>
+  <p><em>Music Collection Welcome Screen</em></p>
+  
+  <img src="DemoImages/MusicCRUD/MusicAdd.png" alt="Add Music" width="600"/>
+  <p><em>Add New Music Form</em></p>
+  
+  <img src="DemoImages/MusicCRUD/MusicAddSuccess.png" alt="Music Added Successfully" width="600"/>
+  <p><em>Music Added Successfully</em></p>
+  
+  <img src="DemoImages/MusicCRUD/MusicUpdateScucess.png" alt="Music Updated Successfully" width="600"/>
+  <p><em>Music Updated Successfully</em></p>
+  
+  <img src="DemoImages/MusicCRUD/MusicDelete.png" alt="Delete Music" width="600"/>
+  <p><em>Delete Music Confirmation</em></p>
+  
+  <img src="DemoImages/MusicCRUD/MusicDeleteSucess.png" alt="Music Deleted Successfully" width="600"/>
+  <p><em>Music Deleted Successfully</em></p>
+</div>
+
 ---
 
 #### 💻 Programming Collection
