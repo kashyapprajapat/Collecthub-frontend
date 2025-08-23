@@ -157,10 +157,16 @@ CollectHub is a comprehensive platform designed to help you organize, manage, an
 #### 📺 YouTube Collection
 <div align="center">
   <img src="DemoImages/YtCRUDViewLaptop.png" alt="YouTube Collection - Desktop" width="700"/>
-  <p><em>YouTube Collection Management - Desktop View</em></p>
-  
-  <img src="DemoImages/YtCRUDView.png" alt="YouTube Collection - Mobile" width="300"/>
+  <p><em>YouTube Collection Management - Desktop View</em></p>  <img src="DemoImages/YtCRUDView.png" alt="YouTube Collection - Mobile" width="300"/>
   <p><em>YouTube Collection Management - Mobile View</em></p>
+</div>
+YouTube Channels Collection CRUD Operations
+<div align="center">
+  <img src="DemoImages/YtChannelsCRUD/ytWelcome.png" alt="YouTube Channels Welcome" width="600"/>
+  <p><em>YouTube Channels Collection Welcome Screen</em></p>  <img src="DemoImages/YtChannelsCRUD/ytadd.png" alt="Add YouTube Channel" width="600"/>
+  <p><em>Add New YouTube Channel Form</em></p>  <img src="DemoImages/YtChannelsCRUD/ytupdate.png" alt="Update YouTube Channel" width="600"/>
+  <p><em>Update YouTube Channel Information</em></p>  <img src="DemoImages/YtChannelsCRUD/ytupdateesucess.png" alt="YouTube Channel Updated Successfully" width="600"/>
+  <p><em>YouTube Channel Updated Successfully</em></p>
 </div>
 
 ---
